@@ -2,6 +2,7 @@ import sys
 
 sys.setrecursionlimit(1500)
 
+# O(logN) Time Complexity
 def power(a, n): 
     if n == 0: 
         a = 1
