@@ -10,7 +10,6 @@ def gcd(a, b):
        print(a, b)
        return gcd(b, a % b)
 
-print(gcd(1000, 100000))
 
 
 def lcm(a, b):
@@ -23,12 +22,12 @@ def xgcd(a, b):
         d, x, y = a, 1, 0
         return d, x, y
     else:
-        d, x1, y1 = xgcd(b, a % b)
+        d, x1, y1 = gcd(b, a % b)
         q = a // b
         x1 = y1
         y1 = x1 - y1*q
         return d, x, y   
 
 
+print(gcd(55, 80))
 
-print(lcm(10, 20)) 
