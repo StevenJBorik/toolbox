@@ -18,6 +18,7 @@ def gaussian_elimination(A):
 
         temp = A[pivot_row, :].copy()
         A[pivot_row, :] = A[max_i, :]
+        print(A[max_i, :])
         A[max_i, :] = temp
 
         # find a fraction that corresponds to the ratio of the
