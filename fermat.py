@@ -1,5 +1,3 @@
-
-
 def fermat_little(a):
     if(2**(a - 1) % a) == 1:
          return True
