@@ -28,7 +28,7 @@ def simpleSieve(limit):
     for p in range(2, limit):
         if mark[p]:
             prime.append(p)
-            print(p,end = " ")
+            print(p, end = " ")
              
 # Prints all prime numbers smaller than 'n'
 def segmentedSieve(n):
