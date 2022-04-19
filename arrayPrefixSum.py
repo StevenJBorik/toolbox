@@ -13,3 +13,4 @@ res = [sum(test_list[ : i + 1]) for i in range(len(test_list))]
    
 # print result
 print("The prefix sum list is : " + str(res))
+
